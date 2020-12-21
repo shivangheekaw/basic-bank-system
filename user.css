@@ -1,0 +1,61 @@
+.hello{
+  
+    background-color: rgb(30, 136, 118);
+    color:white;
+   /* margin-left:10%;
+    margin-right:10%;
+    margin-top:5%;
+    */
+    
+
+    
+}
+.table{
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+th,td{
+    margin-right:40px;
+    width:300px;
+    border-color: red;
+    border-style: thick;
+    border-width: thick;
+    padding: 1%;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}
+
+.form{
+    margin-left:40%;
+    margin-top:50px;
+}
+
+.tableheaders{
+    background-color: rgb(169, 221, 192);
+}
+
+.button{
+    background-color:rgb(169, 221, 192);
+    color:black;
+    padding:5px;
+}
+.button:hover{
+    background-color: rgb(30, 136, 118) ;
+    color:white;
+}
+
+.shivanghee{
+    background-color:rgb(30, 136, 118);
+}
+
+.transferform{
+    margin-right:40px;
+    width:1000px;
+    border-color: red;
+    /*border-style: thick;
+    border-width: thick;*/
+    padding: 1%;
+    /*border-collapse: separate;*/
+    border-spacing: 0 30px;
+}

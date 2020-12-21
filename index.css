@@ -1,0 +1,37 @@
+/*.write{
+    background-color:red;
+    display: inline-block;
+    margin-right:35%;
+}
+.image{
+    display: inline-block;
+    background-color:pink;
+    width:55%;
+}
+
+img{
+width:400px;    
+}
+img{
+    width:100%;
+    position:absolute;
+    z-index: -1;
+}
+.ij{
+    width:100%;
+    background-color: aliceblue;
+
+}*/
+
+.ij {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.ij img {
+    flex-shrink: 0;
+    min-width: 50%;
+    min-height: 70%;
+    opacity : 0.6;
+}

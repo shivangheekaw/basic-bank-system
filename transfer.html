@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:rgb(30, 136, 118);">
+        <a class="navbar-brand" href="#">sparks foundation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="user_details.php">view all customers</a>
+            <a class="nav-item nav-link" href="transaction_history.php">transaction history</a>
+          </div>
+        </div>
+      </nav>
+      <div style="margin-left:40%;">
+    <form action="update_money.php" method="POST">
+        <div class="transferform">
+        <label style="width:150px;" for="sender">Transfer From</label>
+        <input type="text" name="sender" id="sender">
+    </div>
+        <br>
+        <div class="transferform">
+        <label style="width:150px;" for="receiver">Transfer to</label>
+        <input type="text" name="receiver" id="receiver">
+    </div>
+        <br>
+        <div class="transferform">
+        <label style="width:150px;" for="amount">Enter amount</label>
+        <input type="text" name="amount" id="amount">
+    </div>
+        <br>
+        <button style="background-color:rgb(30, 136, 118);" type="submit">transfer</button>
+
+    </form>
+</div>
+</body>
+</html>
